@@ -4,7 +4,7 @@
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Ensures content starts at the top */
+    align-items: flex-start; /* Ensures content starts at the top! */
     height: auto; /* Allow content to grow */
     padding-top: 20px; /* Adds spacing from the top */
 }
