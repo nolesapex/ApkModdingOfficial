@@ -1,0 +1,64 @@
+ <!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modding Tutorials</title>
+    <style>
+        body {
+            background-color: black;
+            color: #33ff33;
+            font-family: "Courier New", monospace;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-shadow: 0 0 5px #33ff33;
+        }
+        .links a {
+            display: block;
+            color: #33ff33;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .links a:hover {
+            text-shadow: 0 0 5px #ff33ff;
+        }
+        .terminal {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #33ff33;
+            text-align: left;
+            margin-top: 20px;
+            padding-left: 15px;
+        }
+        .blink {
+            animation: blink 1s infinite alternate;
+        }
+        @keyframes blink {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Modding Tutorials</h1>
+        <p>Your go-to source for hacking & modding APKs</p>
+        <div class="links">
+            <a href="pages/beginner.html">Beginner Guides</a>
+<a href="pages/advanced.html">Advanced Techniques</a>
+<a href="pages/tools.html">Tools & Resources</a>
+<a href="pages/community.html">Community</a>
+        </div>
+        <div class="terminal">
+            <p>root@modding-tutorials:~$ <span class="blink">_</span></p>
+        </div>
+    </div>
+</body>
+ </html>
